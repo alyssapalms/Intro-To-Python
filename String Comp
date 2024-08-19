@@ -1,0 +1,14 @@
+string1 = "apples"
+string2 = "oranges"
+
+# Using the == operator
+if string1 == string2:
+    print("The strings are equal.")
+else:
+    print("The strings are not equal.")
+
+# Using the != operator
+if string1 != string2:
+    print("The strings are not equal.")
+else:
+    print("The strings are equal.")
