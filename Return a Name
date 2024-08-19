@@ -1,0 +1,6 @@
+prompt = "\nEnter your name:" 
+username = input(prompt)
+def greet_user(username):
+  """Display a greeting to a user"""
+  print(f"Hello, {username.title()}, it's nice to meet you")
+greet_user(username) 
