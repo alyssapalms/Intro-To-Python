@@ -1,0 +1,8 @@
+fruits = ("Apple", "Banana", "Orange")
+
+#Attempt to delete an element
+
+try:
+  del fruits[1]
+except TypeError as e:
+  print("Error:", e)
